@@ -62,7 +62,7 @@ func main() {
 	fmt.Println("| ID | Count |")
 	fmt.Println("| --- | ---- |")
 	for _, key := range keys {
-		fmt.Printf("|`%s`| %d|\n", key, frameworks[key])
+		fmt.Printf("| `%s` | %d |\n", key, frameworks[key])
 		// fmt.Printf("%s: %d\n", key, frameworks[key])
 	}
 }
