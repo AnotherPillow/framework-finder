@@ -59,10 +59,10 @@ func main() {
 	// 	fmt.Printf("%s: %d\n", id, amount)
 	// }
 	fmt.Printf("# Frameworks\n\n")
-	fmt.Println("| ID | Count |")
-	fmt.Println("| --- | ---- |")
+	fmt.Printf("<table><tbody>")
 	for _, key := range keys {
-		fmt.Printf("| `%s` | %d |\n", key, frameworks[key])
+		fmt.Printf("<tr><td><code>%s</code> &rarr; <strong>%d<strong></td></tr>\n", key, frameworks[key])
 		// fmt.Printf("%s: %d\n", key, frameworks[key])
 	}
+	fmt.Printf("</tbody></table>")
 }
