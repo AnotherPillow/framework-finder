@@ -58,7 +58,7 @@ func main() {
 	// for id, amount := range frameworks {
 	// 	fmt.Printf("%s: %d\n", id, amount)
 	// }
-	fmt.Printf("# Frameworks\n\n")
+	fmt.Printf("<h1>Frameworks</h1>\n\n")
 	fmt.Printf("<table><tbody>")
 	for _, key := range keys {
 		fmt.Printf("<tr><td><code>%s</code> &rarr; <strong>%d<strong></td></tr>\n", key, frameworks[key])
