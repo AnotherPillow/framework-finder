@@ -11,4 +11,4 @@ A tool to get overall usage of Stardew Valley framework mods.
 
 ## Pre-done
 
-Dump from [28/06/23](./frameworks.md)
+Dump from [30/05/24](./frameworks.html)
